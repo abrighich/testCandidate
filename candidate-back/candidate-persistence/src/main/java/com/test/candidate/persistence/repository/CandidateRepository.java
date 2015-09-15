@@ -6,4 +6,7 @@ package com.test.candidate.persistence.repository;
 //TODO create CandidateRepository interface
 public interface CandidateRepository {
 
+	List<Candidate> findAll();
+	void editCandidate(Candidate candidate);
+	void addCandidate(Candidate candidate);
 }
