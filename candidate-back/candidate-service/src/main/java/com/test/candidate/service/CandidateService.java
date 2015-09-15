@@ -5,8 +5,10 @@ import org.springframework.stereotype.Component;
 /**
  * Created by oleg on 12/08/15.
  */
-@Component
-//TODO
-public class CandidateService {
 
+public interface CandidateService {
+	List<Candidate> findAll();
+	void editCandidate(Candidate candidate);
+	void addCandidate(Candidate candidate);
+	void deleteCandidate(Candidate candidate);
 }
