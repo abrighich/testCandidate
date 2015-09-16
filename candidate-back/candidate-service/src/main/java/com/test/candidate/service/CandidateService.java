@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
  */
 @Component
 @Path("/test")
-public class CandidateService {
+public class CandidateService implements InterfaceCandidateService{
 	
 	//The bean will inject by Spring IoC
 	@Autowired

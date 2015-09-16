@@ -1,6 +1,6 @@
 
 @Transactional
-public class CandidateServiceImpl implements CandidateService{
+public class CandidateServiceImpl implements InterfaceCandidateService{
 	
 	@Autowired
 	private CandidateRepository candidateRepository ;
